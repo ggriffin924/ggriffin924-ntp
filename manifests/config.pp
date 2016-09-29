@@ -5,8 +5,8 @@ class ntp::config inherits ntp {
     ensure  => file,
     owner   => 'root',
     group   => 'root',
-    mode    => 0644,
-    content => template($module_name/ntp.conf.erb),
+    mode    => '0644',
+    content => template("$module_name/ntp.conf.erb"),
   }
 
 }
