@@ -1,0 +1,15 @@
+{
+  "name": "ggriffin924-ntp",
+  "version": "0.1.0",
+  "author": "ggriffin924",
+  "summary": "Manages NTP on linux machines",
+  "license": "Apache-2.0",
+  "source": "https://github.com/ggriffin924/ggriffin924-ntp.git",
+  "project_page": "https://github.com/ggriffin924/ggriffin924-ntp",
+  "issues_url": "https://github.com/ggriffin924/ggriffin924-ntp/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
